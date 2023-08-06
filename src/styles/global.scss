@@ -3,7 +3,8 @@
     --black: #000000;
     --very-light-pink: #C7C7C7;
     --text-input-field: #F7F7F7;
-    --hospital-green: #ACD9B2;
+    --hospital-green: #08592B;
+    --error:#DD2C2E;
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
@@ -11,5 +12,9 @@
 
 body {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
+    
 }
+

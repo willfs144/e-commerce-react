@@ -12,7 +12,7 @@ const RecoveryPassword = () => {
             </div>
             <button className="primary-button login-button">Login</button>
             <p className="resend">
-                <span>Didn't receive the email?</span>
+                <span>Didn&apos;t receive the email?</span>
                 <a href="/">Resend</a>
             </p>
             </div>

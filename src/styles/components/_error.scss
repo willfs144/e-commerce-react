@@ -1,0 +1,9 @@
+@mixin error(){
+    .error {
+            color: var(--error);
+            font-size: 0.8rem;
+            text-align: right;
+            margin-top: 0.5rem;
+            display: none;
+        }
+}

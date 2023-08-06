@@ -1,0 +1,10 @@
+@mixin label(){
+    label {
+        text-transform: capitalize;
+        font-size: 0.8rem;
+        font-weight: 500;
+        letter-spacing: 0.02rem;
+        margin-top: 10px;
+        color: var(--hospital-green);
+    }
+}
