@@ -8,14 +8,13 @@ const ProductList = () => {
     const products = useGetProducts(API_PRODUCTS);
     
     return (
-        <section className="main-container">
-            <div className="ProductList">
-                {products.map(product => (
-                   <ProductItem key={product.id} product={product} />
-                ))}
-                 
-            </div>
-        </section>
+      <section className="main-container">
+        <div className="ProductList">
+          {products.map((product) => (
+            <ProductItem key={product.id} product={product} />
+          ))}
+        </div>
+      </section>
     );
 }
 
